@@ -7,3 +7,8 @@
     padding: 14%;
     color: white;
 }
+.about h1,
+p {
+    text-align: center;
+    padding-top: 2vh;
+}
