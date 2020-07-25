@@ -30,7 +30,7 @@ p {
 }
 
 .container img {
-    /* margin: 12em; */
+    margin: 0.2em;
 }
 
 .portfolio img {
@@ -79,3 +79,7 @@ align-items: center;
         color:  white;
         margin: 20px;
      }
+     .click{
+         padding: 15em;
+     }
+        
