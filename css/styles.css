@@ -43,7 +43,6 @@ form {
     background-image: url("../IP3/assets/backgrounds/c_image.jpg");
     text-align: center;
     height: 28em;
-    /* width: 20vw; */
     background-repeat: no-repeat;
     background-size: contain;
     padding: 14%;
@@ -51,6 +50,6 @@ form {
     }
 .footer{
     text-align: center;
-    padding: 10%;
+    padding: 11%;
 }
 
