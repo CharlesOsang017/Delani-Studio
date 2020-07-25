@@ -47,14 +47,14 @@ $(document).ready(function () {
     $('img#port7').hover(function () {
         $('#port7').toggle('slow');
     });
-    $('p#f8').hover(function () {
-        $('#f8').slideToggle('slow');
+    $('p#wonger').hover(function () {
+        $('#wonger').slideToggle('slow');
     });
 });
 
 
-document.forms['forms'].addEventListener('submit', function (e) {
-    e.preventDefault();
+document.forms['forms'].addEventListener('submit', function (event) {
+    event.preventDefault();
 });
 function myFunctions() {
     var name = document.forms['forms'].elements[0].value;

@@ -88,7 +88,7 @@ align-items: center;
     border: solid 1px white;
 }
 
-.portfolio > img,
+.portfolio  img,
 .IMG {
     width: 250px;
     height: 250px;
@@ -102,7 +102,7 @@ align-items: center;
     opacity: 0.9;
     background: linear-gradient(#070606ea,
             #141414d0),
-        url('./portfolio/work8.jpg');
+        url('../IP3/assets/portfolio/work8.jpg');
 
 } 
 
@@ -118,3 +118,6 @@ align-items: center;
     padding-top: 4px;
     padding-left: 2%;
 } 
+.submit{
+    width: 10%;
+}
