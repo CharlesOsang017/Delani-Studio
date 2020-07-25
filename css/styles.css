@@ -121,3 +121,13 @@ align-items: center;
 .submit{
     width: 10%;
 }
+h2,h3{
+    font-family: 'DM Serif Text', serif;
+}
+p{
+    font-family: 'DM Serif Text', serif;
+}
+h1{
+    font-family: 'DM Serif Text', serif;
+font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
