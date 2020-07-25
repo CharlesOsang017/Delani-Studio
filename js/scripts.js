@@ -15,5 +15,13 @@ $(document).ready(function(){
          $("#img1").show();
          $("#p1").hide();
      });
+     $("#img2").click(function(){
+         $("#p2").show();
+         $("#img2").hide();
+     });
+     $("#p2").click(function(){
+         $("#img2").show();
+         $("#p2").hide();
+     });
      
 });
