@@ -85,4 +85,11 @@ align-items: center;
      #p, #p1, #p2{
          display: none;
      }
-        
+    .whatWeDo{
+        text-align: center;
+        flex-direction: row-reverse;
+    }  
+    .first, .second, .third{
+        display: inline-block;
+        margin: 10%;
+    }
