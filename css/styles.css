@@ -14,12 +14,43 @@ p {
 }
 .service {
     background-image: url('../IP3/assets/backgrounds/s_image.jpg');
-    height: 35em;
-    background-repeat: no-repeat;
+    height: 36em;
+     background-repeat: no-repeat;
     text-align: center;
     color: white;
-    padding: 10%;
+    padding: 15%;
 }
-.whatWeDo h2{
+.container h2{
+    text-align: center;
+
+}
+.container img{
+    margin: 12em;
+}
+.portfolio img{
+    width: 18em;
+}
+.portfolio h1{
     text-align: center;
 }
+form {
+    display: inline;
+}
+.container p{
+    top: 30%;
+} 
+.contact{
+    background-image: url("../IP3/assets/backgrounds/c_image.jpg");
+    text-align: center;
+    height: 28em;
+    /* width: 20vw; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 14%;
+    color: white;
+    }
+.footer{
+    text-align: center;
+    padding: 10%;
+}
+
