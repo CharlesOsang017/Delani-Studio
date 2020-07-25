@@ -8,13 +8,11 @@
     color: white;
     background-position: center;
 }
-
 .about h1,
 p {
     text-align: center;
     padding-top: 2vh;
 }
-
 .service {
     background-image: url('../IP3/assets/backgrounds/s_image.jpg');
     height: 36em;
@@ -24,21 +22,8 @@ p {
     padding: 15%;
     background-position: center;
 }
-
-.container h2 {
-    text-align: center;
-}
-
-.container img {
-    margin: 0.2em;
-}
-
 .portfolio img {
     width: 18em;
-}
-
-.portfolio h1 {
-    text-align: center;
 }
 
 .contact form {
@@ -46,12 +31,6 @@ p {
   flex-direction: column;
 justify-content: center;
 align-items: center;
-
-
-}
-
-.container p {
-    top: 30%;
 }
 
 .contact {
@@ -62,34 +41,32 @@ align-items: center;
     background-size: contain;
     padding: 14%;
     color: white;
-
 }
-
 .footer {
     text-align: center;
     padding: 11%;
 }
 .inputs  {
-    display: flex;
-     }
-     #name, #email, #text{
-         background-color: transparent;
-     }
-     ::placeholder{
-        color:  white;
-        margin: 20px;
-     }
-     .click{
-         padding: 15em;
-     }
-     #p, #p1, #p2{
-         display: none;
-     }
-    .whatWeDo{
-        text-align: center;
-        flex-direction: row-reverse;
-    }  
-    .first, .second, .third{
-        display: inline-block;
-        margin: 10%;
-    }
+  display: flex;
+ }
+ #name, #email, #text{
+ background-color: transparent;
+ }
+ ::placeholder{
+ color:  white;
+ margin: 20px;
+ }
+ .click{
+ padding: 15em;
+ }
+ #p, #p1, #p2{
+ display: none;
+ }
+ .whatWeDo{
+ text-align: center;
+ flex-direction: row-reverse;
+ }  
+ .first, .second, .third{
+ display: inline-block;
+ margin: 10%;
+ }
