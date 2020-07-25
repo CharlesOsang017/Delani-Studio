@@ -39,7 +39,7 @@ align-items: center;
     height: 28em;
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 14%;
+    padding: 2%;
     color: white;
 }
 .footer {
@@ -51,6 +51,7 @@ align-items: center;
  }
  #name, #email, #text{
  background-color: transparent;
+ margin: 20px;
  }
  ::placeholder{
  color:  white;
@@ -70,3 +71,50 @@ align-items: center;
  display: inline-block;
  margin: 10%;
  }
+ #text {
+    height: 220px;
+    width: 75%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+}
+#email, #name{
+    width: 35vw;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: transparent;
+    border: solid 1px white;
+}
+
+.portfolio > img,
+.IMG {
+    width: 250px;
+    height: 250px;
+    margin: 1%;
+    margin-top: 0%;
+}
+
+.IMG {
+    background-size: cover;
+    float: right;
+    opacity: 0.9;
+    background: linear-gradient(#070606ea,
+            #141414d0),
+        url('./portfolio/work8.jpg');
+
+} 
+
+.IMG p {
+    border: 3px solid white;
+    font-size: 22px;
+    margin-top: 1%;
+    margin-bottom: 12%;
+    margin-right: 8%;
+    margin-left: 8%;
+    z-index: 1;
+    color: white;
+    padding-top: 4px;
+    padding-left: 2%;
+} 

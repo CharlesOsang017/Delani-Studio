@@ -47,7 +47,35 @@ $(document).ready(function () {
     $('img#port7').hover(function () {
         $('#port7').toggle('slow');
     });
-    $('p#port8').hover(function () {
-        $('#port8').slideToggle('slow');
+    $('p#f8').hover(function () {
+        $('#f8').slideToggle('slow');
     });
 });
+
+
+document.forms['forms'].addEventListener('submit', function (e) {
+    e.preventDefault();
+});
+function myFunctions() {
+    var name = document.forms['forms'].elements[0].value;
+    var email = document.forms['forms'].elements[1].value;
+    var message = document.forms['forms'].elements[2].value;
+
+// form validation
+
+    if (name == "" && email == "") {
+        alert('Your name and email is required');
+        return 0;
+    }
+    else {
+        if (name == "") {
+            alert("Enter your name to proceed");
+        }
+        else if (email == "") {
+            alert("Please provide a valid email");
+        }
+    }
+    if ((name !== "" && email != "" && text == "") || (name != "" && email != "" && text != "")) {
+        alert("Dear " + name + " your message has been received successfully.");
+    }
+}
