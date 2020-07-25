@@ -82,4 +82,7 @@ align-items: center;
      .click{
          padding: 15em;
      }
+     #p, #p1, #p2{
+         display: none;
+     }
         
