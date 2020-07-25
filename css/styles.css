@@ -3,43 +3,58 @@
     text-align: center;
     height: 45em;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     padding: 14%;
     color: white;
+    background-position: center;
 }
+
 .about h1,
 p {
     text-align: center;
     padding-top: 2vh;
 }
+
 .service {
     background-image: url('../IP3/assets/backgrounds/s_image.jpg');
     height: 36em;
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     text-align: center;
     color: white;
     padding: 15%;
+    background-position: center;
 }
-.container h2{
-    text-align: center;
 
+.container h2 {
+    text-align: center;
 }
-.container img{
-    margin: 12em;
+
+.container img {
+    /* margin: 12em; */
 }
-.portfolio img{
+
+.portfolio img {
     width: 18em;
 }
-.portfolio h1{
+
+.portfolio h1 {
     text-align: center;
 }
-form {
-    display: inline;
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
 }
-.container p{
+
+.container p {
     top: 30%;
-} 
-.contact{
+}
+
+.contact {
     background-image: url("../IP3/assets/backgrounds/c_image.jpg");
     text-align: center;
     height: 28em;
@@ -47,9 +62,20 @@ form {
     background-size: contain;
     padding: 14%;
     color: white;
-    }
-.footer{
+
+}
+
+.footer {
     text-align: center;
     padding: 11%;
 }
-
+.inputs  {
+    display: flex;
+     }
+     #name, #email, #text{
+         background-color: transparent;
+     }
+     ::placeholder{
+        color:  white;
+        margin: 20px;
+     }
