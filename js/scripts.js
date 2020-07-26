@@ -27,25 +27,25 @@ $(document).ready(function () {
     //Creating a hover on the portfolio picture
 
     $('img#port1').hover(function () {
-        $('#port1').slideToggle('slow');
+        $('#port1').toggle('slow');
     });
     $('img#port2').hover(function () {
-        $('#port2').slideToggle('slow');
+        $('#port2').toggle('slow');
     });
     $('img#port3').hover(function () {
-        $('#port3').slideToggle('slow');
+        $('#port3').toggle('slow');
     });
     $('img#port4').hover(function () {
-        $('#port4').slideToggle('slow');
+        $('#port4').toggle('slow');
     });
     $('img#port5').hover(function () {
-        $('#port5').toggle('slow');
+        $('#port5').slideToggle('slow');
     });
     $('img#port6').hover(function () {
-        $('#port6').toggle('slow');
+        $('#port6').slideToggle('slow');
     });
     $('img#port7').hover(function () {
-        $('#port7').toggle('slow');
+        $('#port7').slideToggle('slow');
     });
     $('p#wonger').hover(function () {
         $('#wonger').slideToggle('slow');

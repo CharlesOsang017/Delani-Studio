@@ -131,3 +131,6 @@ h1{
     font-family: 'DM Serif Text', serif;
 font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
+body{
+    overflow-x: hidden;
+}
