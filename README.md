@@ -4,12 +4,10 @@ Delani studio is a website that receives your sentiment and respond to it immedi
 ## Author
 Charles Osango
 ## Technologies Used
-1.Bootstrap
-2.jQuery
-3.HTML
-4.CSS
-# Dependecies
-
+* Bootstrap
+* jQuery
+* HTML
+* CSS 
 ## Installation
 The website is available online,no need of installing
 ## Contact
