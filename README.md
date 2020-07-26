@@ -1,4 +1,4 @@
-### Delani Studio
+# Delani Studio
 ## Description 
 Delani studio is a website that receives your sentiment and respond to it immediately.
 ## Author
@@ -8,6 +8,8 @@ Charles Osango
 2.jQuery
 3.HTML
 4.CSS
+# Dependecies
+
 ## Installation
 The website is available online,no need of installing
 ## Contact

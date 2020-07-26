@@ -46,6 +46,10 @@ $(document).ready(function () {
     });
     $('img#port7').hover(function () {
         $('#port7').slideToggle('slow');
+
+    });
+    $(".click").hover(function(){
+        $(".click").slideToggle();
     });
     $('p#wonger').hover(function () {
         $('#wonger').slideToggle('slow');
@@ -76,6 +80,6 @@ function myFunctions() {
         }
     }
     if ((name !== "" && email != "" && text == "") || (name != "" && email != "" && text != "")) {
-        alert("Dear " + name + " your message has been received successfully.");
+        alert("Dear " + name + " your message has been received successfully.Thank you for reaching out to us.");
     }
 }
