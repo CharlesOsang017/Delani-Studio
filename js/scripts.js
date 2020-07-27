@@ -1,28 +1,86 @@
 $(document).ready(function () {
-    $("#img").click(function () {
-        $("#p").show();
-        $("#img").hide();
-    });
-    $("#p").click(function () {
-        $("#img").show();
-        $("#p").hide();
-    });
-    $("#img1").click(function () {
-        $("#p1").show();
-        $("#img1").hide();
-    });
-    $("#p1").click(function () {
-        $("#img1").show();
-        $("#p1").hide();
-    });
-    $("#img2").click(function () {
-        $("#p2").show();
-        $("#img2").hide();
-    });
-    $("#p2").click(function () {
-        $("#img2").show();
-        $("#p2").hide();
-    });
+$("#port1").mouseover(function(){
+    $("#p-text1").show();
+}).mouseout(function(){
+    $("#p-text1").hide();
+});
+$("#port2").mouseover(function(){
+    $("#p-text2").show();
+}).mouseout(function(){
+    $("#p-text2").hide();
+});
+
+$("#port3").mouseover(function(){
+    $("#p-text3").show();
+}).mouseout(function(){
+    $("#p-text3").hide();
+});
+
+$("#port4").mouseover(function(){
+    $("#p-text4").show();
+}).mouseout(function(){
+    $("#p-text4").hide();
+});
+
+$("#port5").mouseover(function(){
+    $("#p-text5").show();
+}).mouseout(function(){
+    $("#p-text5").hide();
+});
+
+$("#port6").mouseover(function(){
+    $("#p-text6").show();
+}).mouseout(function(){
+    $("#p-text6").hide();
+});
+
+$("#port7").mouseover(function(){
+    $("#p-text7").show();
+}).mouseout(function(){
+    $("#p-text7").hide();
+});
+
+$("#port8").mouseover(function(){
+    $("#p-text8").show();
+}).mouseout(function(){
+    $("#p-text8").hide();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+    // $("#img").click(function () {
+    //     $("#p").show();
+    //     $("#img").hide();
+    // });
+    // $("#p").click(function () {
+    //     $("#img").show();
+    //     $("#p").hide();
+    // });
+    // $("#img1").click(function () {
+    //     $("#p1").show();
+    //     $("#img1").hide();
+    // });
+    // $("#p1").click(function () {
+    //     $("#img1").show();
+    //     $("#p1").hide();
+    // });
+    // $("#img2").mouseover(function () {
+    //     $("#p-text1").show();
+    //     $("#img2").hide();
+    // });
+    // $("#p2").click(function () {
+    //     $("#img2").show();
+    //     $("#p2").hide();
+    // });
 
     //Creating a hover on the portfolio picture
 

@@ -44,7 +44,8 @@ align-items: center;
 }
 .footer {
     text-align: center;
-    padding: 11%;
+    padding: 5%;
+    font-size: 19%;
 }
 .inputs  {
   display: flex;
@@ -102,4 +103,8 @@ font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 body{
     overflow-x: hidden;
+}
+#p-text1, #p-text2, #p-text3, #p-text4, #p-text5, #p-text6, #p-text7, #p-text8 {
+    display: none;
+   
 }
