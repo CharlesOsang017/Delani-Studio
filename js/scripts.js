@@ -46,72 +46,63 @@ $("#port8").mouseover(function(){
     $("#p-text8").hide();
 });
 
+// Adding click effect to what we do page
 
-
-
-
-
-
-
-
-
-
-
-    // $("#img").click(function () {
-    //     $("#p").show();
-    //     $("#img").hide();
-    // });
-    // $("#p").click(function () {
-    //     $("#img").show();
-    //     $("#p").hide();
-    // });
-    // $("#img1").click(function () {
-    //     $("#p1").show();
-    //     $("#img1").hide();
-    // });
-    // $("#p1").click(function () {
-    //     $("#img1").show();
-    //     $("#p1").hide();
-    // });
-    // $("#img2").mouseover(function () {
-    //     $("#p-text1").show();
-    //     $("#img2").hide();
-    // });
-    // $("#p2").click(function () {
-    //     $("#img2").show();
-    //     $("#p2").hide();
-    // });
+    $("#img").click(function () {
+        $("#p").show();
+        $("#img").hide();
+    });
+    $("#p").click(function () {
+        $("#img").show();
+        $("#p").hide();
+    });
+    $("#img1").click(function () {
+        $("#p1").show();
+        $("#img1").hide();
+    });
+    $("#p1").click(function () {
+        $("#img1").show();
+        $("#p1").hide();
+    });
+    $("#img2").click(function () {
+        $("#p2").show();
+        $("#img2").hide();
+    });
+    $("#p2").click(function () {
+        $("#img2").show();
+        $("#p2").hide();
+    });
 
     //Creating a hover on the portfolio picture
 
-    $('img#port1').hover(function () {
-        $('#port1').fadeToggle('slow');
-    });
-    $('img#port2').hover(function () {
-        $('#port2').fadeToggle('slow');
-    });
-    $('img#port3').hover(function () {
-        $('#port3').fadeToggle('slow');
-    });
-    $('img#port4').hover(function () {
-        $('#port4').fadeToggle('slow');
-    });
-    $('img#port5').hover(function () {
-        $('#port5').fadeToggle('slow');
-    });
-    $('img#port6').hover(function () {
-        $('#port6').fadeToggle('slow');
-    });
-    $('img#port7').hover(function () {
-        $('#port7').fadeToggle('slow');
+    // $('img#port1').click(function () {
+    //     $('#port1').fadeToggle(slow);
+    // });
+    // $('img#port2').hover(function () {
+    //     $('#port2').fadeToggle(slow);
+    // });
+    // $('img#port3').hover(function () {
+    //     $('#port3').fadeToggle(slow);
+    // });
+    // $('img#port4').hover(function () {
+    //     $('#port4').fadeToggle(slow);
+    // });
+    // $('img#port5').hover(function () {
+    //     $('#port5').fadeToggle('slow');
+    // });
+    // $('img#port6').hover(function () {
+    //     $('#port6').fadeToggle('slow');
+    // });
+    // $('img#port7').hover(function () {
+    //     $('#port7').fadeToggle('slow');
 
-    });
-    $(".click").hover(function(){
-        $(".click").fadeToggle();
-    });
-    $('img#port8').hover(function () {
-        $('#port8').fadeToggle('slow');
-    });
+    // });
+    // $(".click").hover(function(){
+    //     $(".click").fadeToggle('slow');
+    // });
+    // $('img#port8').hover(function () {
+    //     $('#port8').fadeToggle('slow');
+    // });
    });
 
 

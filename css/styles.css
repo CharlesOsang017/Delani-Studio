@@ -104,7 +104,18 @@ font-family: 'IBM Plex Sans Condensed', sans-serif;
 body{
     overflow-x: hidden;
 }
-#p-text1, #p-text2, #p-text3, #p-text4, #p-text5, #p-text6, #p-text7, #p-text8 {
-    display: none;
-   
+#p-text1,#p-text2,#p-text3,#p-text4,#p-text5,#p-text6,#p-text7,#p-text8{
+    position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        /* color: white; */
+        opacity: 70%;
+        left: 0;
+        background-color: thistle;
+        right: 0;
+        top: 40%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; 
+        border: 10 white;
+
 }
