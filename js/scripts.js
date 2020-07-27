@@ -27,34 +27,34 @@ $(document).ready(function () {
     //Creating a hover on the portfolio picture
 
     $('img#port1').hover(function () {
-        $('#port1').toggle('slow');
+        $('#port1').fadeToggle('slow');
     });
     $('img#port2').hover(function () {
-        $('#port2').toggle('slow');
+        $('#port2').fadeToggle('slow');
     });
     $('img#port3').hover(function () {
-        $('#port3').toggle('slow');
+        $('#port3').fadeToggle('slow');
     });
     $('img#port4').hover(function () {
-        $('#port4').toggle('slow');
+        $('#port4').fadeToggle('slow');
     });
     $('img#port5').hover(function () {
-        $('#port5').slideToggle('slow');
+        $('#port5').fadeToggle('slow');
     });
     $('img#port6').hover(function () {
-        $('#port6').slideToggle('slow');
+        $('#port6').fadeToggle('slow');
     });
     $('img#port7').hover(function () {
-        $('#port7').slideToggle('slow');
+        $('#port7').fadeToggle('slow');
 
     });
     $(".click").hover(function(){
-        $(".click").slideToggle();
+        $(".click").fadeToggle();
     });
-    $('p#wonger').hover(function () {
-        $('#wonger').slideToggle('slow');
+    $('img#port8').hover(function () {
+        $('#port8').fadeToggle('slow');
     });
-});
+   });
 
 
 document.forms['forms'].addEventListener('submit', function (event) {

@@ -87,37 +87,6 @@ align-items: center;
     background-color: transparent;
     border: solid 1px white;
 }
-
-.portfolio  img,
-.IMG {
-    width: 250px;
-    height: 250px;
-    margin: 1%;
-    margin-top: 0%;
-}
-
-.IMG {
-    background-size: cover;
-    float: right;
-    opacity: 0.9;
-    background: linear-gradient(#070606ea,
-            #141414d0),
-        url('../IP3/assets/portfolio/work8.jpg');
-
-} 
-
-.IMG p {
-    border: 3px solid white;
-    font-size: 22px;
-    margin-top: 1%;
-    margin-bottom: 12%;
-    margin-right: 8%;
-    margin-left: 8%;
-    z-index: 1;
-    color: white;
-    padding-top: 4px;
-    padding-left: 2%;
-} 
 .submit{
     width: 10%;
 }
@@ -134,13 +103,3 @@ font-family: 'IBM Plex Sans Condensed', sans-serif;
 body{
     overflow-x: hidden;
 }
-
-#port1 {
-    background-size: cover;
-    float: left;
-    opacity: 0.9;
-    background: linear-gradient(#070606ea,
-            #141414d0),
-        url('../IP3/assets/portfolio/work2.jpg');
-
-}  
