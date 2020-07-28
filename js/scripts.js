@@ -128,7 +128,7 @@ function myFunctions() {
             alert("Please provide a valid email");
         }
     }
-    if ((name !== "" && email != "" && text == "") || (name != "" && email != "" && text != "")) {
+    if ((name !== "" && email !== "" && text == "") || (name != "" && email != "" && text != "")) {
         alert("Dear " + name + " your message has been received successfully.Thank you for reaching out to us.");
     }
 }
